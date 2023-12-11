@@ -1,0 +1,46 @@
+.common{
+    background-color: antiquewhite;
+    border: 2px solid white;
+}
+.menu{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text{
+    font-size: 70px;
+}
+
+.writing{
+    font-size: 15px;
+    color: black;
+}
+.list{
+    text-align: center;
+    font-size: 25px;
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+body{ 
+    background-image:url(https://www.borealcm.com/wp-content/uploads/2015/09/slider-1.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
